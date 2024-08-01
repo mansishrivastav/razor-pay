@@ -1,4 +1,5 @@
 import React from "react";
+import Logo from '../images/logo.png'
 import {
   CiHome,
   MdArrowOutward,
@@ -16,7 +17,7 @@ const Sidebar = () => {
   return (
     <div className="w-64 bg-gray-900 p-4">
       <div className="flex items-left justify-start mb-6 ">
-        <img src={require("./images/logo.png")} alt="logo" className="w-36" />
+        <img src={Logo} alt="logo" className="w-36" />
       </div>
       <nav className="text-white">
         <ul>
@@ -60,7 +61,7 @@ const Sidebar = () => {
             >
               <span className="mr-2">
                 <GoPerson />
-              </span>{" "}
+              </span>
               Contacts
             </a>
           </li>
@@ -69,10 +70,10 @@ const Sidebar = () => {
               href="#"
               className="flex items-center text-sm hover:text-gray-500"
             >
-              <span className="mr-2">&#8377;</span> Loans{" "}
+              <span className="mr-2">&#8377;</span> Loans
               <span className="bg-green-600 text-white text-xs font-bold ml-2 px-2 rounded-full">
-                {" "}
-                NEW{" "}
+                
+                NEW
               </span>
             </a>
           </li>

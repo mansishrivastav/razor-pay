@@ -1,5 +1,7 @@
 import React from "react";
 import { RiLoopRightFill, MdArrowRightAlt, IoCheckmarkCircle } from "../utils/imports";
+import ZohoImg from '../images/zoho.png';
+import BankImg from '../images/bank.png'
 
 const Body = () => {
   return (
@@ -34,7 +36,7 @@ const Body = () => {
         <div>
           <div className="flex justify-between gap-4 border-none bg-slate-900 mt-2 py-6 px-4 rounded-md">
             <figure className="w-16">
-              <img src={require("./images/bank.png")} alt="bank" />
+              <img src={BankImg} alt="bank" />
               <figcaption className="uppercase text-xs mt-3 text-center ">
                 current account
               </figcaption>
@@ -66,13 +68,13 @@ const Body = () => {
            
           </div>
         </div>
-        <div className="border-none bg-slate-900 mt-4 py-8 px-6 rounded-md">
+        <div className="border-none bg-slate-900 mt-4 py-8  rounded-md">
   <div className="flex justify-between gap-4">
     <div className="w-full">
       <div className="-mt-12">
         <input type="range" className="custom-range" />
       </div>
-      <div className="flex justify-between items-start">
+      <div className="flex justify-between px-6 py-2 items-start">
       <h2 className="text-lg font-medium mb-2">Amazon Instant Settlements</h2>
         <div >
          
@@ -89,11 +91,11 @@ const Body = () => {
     </div>
   </div>
 
-  <div className=" ">
+  <div >
     <input type="range" className="custom-range" />
   </div>
 
-  <div className="flex justify-between items-start ">
+  <div className="flex justify-between px-6 py-2 items-start ">
     <h2 className="text-xl font-medium">Creating payouts in Live mode</h2>
     <div className="flex flex-col">
       <p className="flex items-center text-xs text-gray-400 mb-2">
@@ -116,7 +118,7 @@ const Body = () => {
 </div>
 <div className="flex justify-between items-center mt-6 gap-10  bg-slate-900 p-4 rounded-lg ">
   <figure className="w-16">
-  <img src={require("./images/zoho.png")} alt="zoho" />
+  <img src={ZohoImg} alt="zoho" />
   </figure>
         <div className="text-sm">
           <h2 className="font-medium">Automate Bookkeeping For Payouts</h2>
