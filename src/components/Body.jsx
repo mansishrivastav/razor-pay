@@ -34,7 +34,7 @@ const Body = () => {
         <div>
           <div className="flex justify-between gap-4 border-none bg-slate-900 mt-2 py-6 px-4 rounded-md">
             <figure className="w-16">
-              <img src="/images/bank.png" alt="bank" />
+              <img src="./images/bank.png" alt="bank" />
               <figcaption className="uppercase text-xs mt-3 text-center ">
                 current account
               </figcaption>
@@ -116,7 +116,7 @@ const Body = () => {
 </div>
 <div className="flex justify-between items-center mt-6 gap-10  bg-slate-900 p-4 rounded-lg ">
   <figure className="w-16">
-  <img src="/images/zoho.png" alt="zoho" />
+  <img src="./images/zoho.png" alt="zoho" />
   </figure>
         <div className="text-sm">
           <h2 className="font-medium">Automate Bookkeeping For Payouts</h2>

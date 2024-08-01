@@ -16,7 +16,7 @@ const Sidebar = () => {
   return (
     <div className="w-64 bg-gray-900 p-4">
       <div className="flex items-left justify-start mb-6 ">
-        <img src="/images/logo.png" alt="logo" className="w-36" />
+        <img src="./images/logo.png" alt="logo" className="w-36" />
       </div>
       <nav className="text-white">
         <ul>
